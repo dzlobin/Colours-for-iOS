@@ -146,6 +146,7 @@ typedef enum {
 
 // Color Methods
 +(UIColor *)colorFromHex:(NSString *)hexString;
++(UIColor *)colorFromHex:(NSString *)hexString withAlpha:(CGFloat)alpha;
 +(NSString *)hexFromColor:(UIColor *)color;
 +(NSArray *)rgbaArrayFromColor:(UIColor *)color;
 +(NSArray *)hsbaArrayFromColor:(UIColor *)color;
